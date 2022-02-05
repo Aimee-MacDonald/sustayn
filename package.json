@@ -1,0 +1,43 @@
+{
+  "name": "sustayn",
+  "version": "0.0.1",
+  "main": "server.js",
+  "repository": "https://github.com/Aimee-MacDonald/sustayn.git",
+  "author": "Aimee MacDonald <aimeelmacdonald@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/backend/server.js",
+    "compile_frontend": "webpack --config webpack.config.js --watch"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@chainlink/contracts": "^0.3.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts": "^4.4.2",
+    "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
+    "chai": "^4.3.6",
+    "css-loader": "^6.6.0",
+    "cssnano": "^5.0.16",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.3",
+    "mini-css-extract-plugin": "^2.5.3",
+    "normalize.css": "^8.0.1",
+    "postcss-loader": "^6.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
