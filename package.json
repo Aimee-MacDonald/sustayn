@@ -1,13 +1,14 @@
 {
   "name": "sustayn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "server.js",
   "repository": "https://github.com/Aimee-MacDonald/sustayn.git",
   "author": "Aimee MacDonald <aimeelmacdonald@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node src/backend/server.js",
-    "compile_frontend": "webpack --config webpack.config.js --watch"
+    "compile_frontend": "webpack --config webpack.config.js --watch",
+    "heroku-postbuild": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
