@@ -4,10 +4,14 @@ import ReactDOM from 'react-dom'
 import 'normalize.css'
 import './main.sass'
 
+import Welcome from './sections/Welcome/Welcome'
+import Suggestions from './sections/Suggestions/Suggestions'
+
 const Main = () => {
   return (
     <div id='Main'>
-      <h1>Sustayn</h1>
+      <Welcome/>
+      <Suggestions/>
     </div>
   )
 }
